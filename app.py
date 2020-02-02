@@ -29,4 +29,5 @@ def page_not_found(error):
 
 
 if __name__ == '__main__':
+    app.run(threaded=True)
     app.run(debug=True, host="0.0.0.0", port=8080)
