@@ -19,7 +19,7 @@ def home():
 
 @app.route('/about')
 def about():
-    return render-template('about html')
+    return render-template('about.html')
 
 
 @app.errorhandler(404)
